@@ -1,7 +1,11 @@
 from django.db.models import (Model, CharField, SlugField,
                               URLField, TextField, DateField,
-                              ForeignKey, CASCADE, )
+                              ForeignKey, CASCADE)
 from jsonfield import JSONField   # Django 3.0
+
+
+def default_urls():
+    return {"work_ua": "", "dou_ua": "", "djinni": ""}
 
 
 class City(Model):
@@ -33,7 +37,7 @@ class Vacancy(Model):
     title = CharField(max_length=250, verbose_name='Title')
     company = CharField(max_length=250, verbose_name='Company')
     description = TextField(verbose_name='Description')
-    city = ForeignKey('City', on_delete=CASCADE, verbose_name='')
+    city = ForeignKey('City', on_delete=CASCADE, verbose_name='City')
     program_language = ForeignKey('ProgramLanguage', on_delete=CASCADE, verbose_name='Program language')
     timestamp = DateField(auto_now_add=True)
 
@@ -51,3 +55,13 @@ class Error(Model):
 
     def __str__(self):
         return str(self.timestamp)
+    
+
+class Url(Model):
+    city = ForeignKey('City', on_delete=CASCADE, verbose_name='City')
+    program_language = ForeignKey('ProgramLanguage', on_delete=CASCADE, verbose_name='Program language')
+    url_data = JSONField(default=default_urls)
+    
+    class Meta:
+        unique_together = ("city", "program_language")
+    

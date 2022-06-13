@@ -37,7 +37,3 @@ for job in jobs:
 
 if errors:
     er = Error(data=errors).save()
-
-# h = codecs.open('vacancies.txt', 'w', 'utf-8')
-# h.write(str(jobs))
-# h.close()
