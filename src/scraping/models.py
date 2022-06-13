@@ -1,5 +1,7 @@
-from django.db.models import (Model, CharField, SlugField, URLField, TextField, DateField,
+from django.db.models import (Model, CharField, SlugField,
+                              URLField, TextField, DateField,
                               ForeignKey, CASCADE, )
+from jsonfield import JSONField   # Django 3.0
 
 
 class City(Model):
@@ -41,3 +43,11 @@ class Vacancy(Model):
 
     def __str__(self):
         return self.title
+
+
+class Error(Model):
+    data = JSONField() # Django 3.0
+    timestamp = DateField(auto_now_add=True)
+
+    def __str__(self):
+        return str(self.timestamp)
