@@ -1,8 +1,13 @@
 from django.contrib.auth import get_user_model, authenticate
 from django.contrib.auth.hashers import check_password
-from django.forms import Form, EmailInput, CharField, PasswordInput, ValidationError
+from django.forms import (Form, ModelForm, EmailInput, CheckboxInput,
+                          CharField, BooleanField, PasswordInput, ValidationError,
+                          ModelChoiceField, Select)
+
+from scraping.models import City, ProgramLanguage
 
 User = get_user_model()
+
 
 class UserLoginForm(Form):
     email = CharField(widget=EmailInput(attrs={'class': 'form-control'}))
@@ -25,3 +30,42 @@ class UserLoginForm(Form):
                 raise ValidationError('Користувач відключений')
 
         return super(UserLoginForm, self).clean(*args, **kwargs)
+
+
+class UserRegistrationForm(ModelForm):
+    email = CharField(label='Введіть електронну пошту', widget=EmailInput(attrs={'class': 'form-control'}))
+    password1 = CharField(label='Введіть пароль', widget=PasswordInput(attrs={'class': 'form-control'}))
+    password2 = CharField(label='Повторіть пароль', widget=PasswordInput(attrs={'class': 'form-control'}))
+
+    class Meta:
+        model = User
+        fields = ('email', )
+
+    def clean_password2(self):
+        data = self.cleaned_data
+        if data['password1'] != data['password2']:
+            raise ValidationError('Паролі не співпадають')
+        return data['password2']
+
+
+class UserUpdateForm(Form):
+    city = ModelChoiceField(queryset=City.objects.all(),
+                            to_field_name='slug',
+                            required=True,
+                            widget=Select(attrs={'class': 'form-control'}),
+                            label='Місто'
+    )
+    program_language = ModelChoiceField(queryset=ProgramLanguage.objects.all(),
+                                        to_field_name='slug',
+                                        required=True,
+                                        widget=Select(attrs={'class': 'form-control'}),
+                                        label='Мова програмування'
+    )
+    send_email = BooleanField(required=False,
+                              widget=CheckboxInput,
+                              label='Отримувати розсилку на пошту?'
+    )
+
+    class Meta:
+        model = User
+        fields = ('city', 'program_language', 'send_email')
