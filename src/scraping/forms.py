@@ -7,10 +7,10 @@ class FindForm(Form):
                             to_field_name='slug',
                             required=False,
                             widget=Select(attrs={'class': 'form-control'}),
-                            label='City')
+                            label='Місто')
     program_language = ModelChoiceField(queryset=ProgramLanguage.objects.all(),
                                         to_field_name='slug',
                                         required=False,
                                         widget=Select(attrs={'class': 'form-control'}),
-                                        label='Program language')
+                                        label='Мова програмування')
 
