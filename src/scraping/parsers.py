@@ -142,9 +142,9 @@ def work_ua(url, city=None, program_language=None):
     return jobs, errors
 
 
-if __name__ == '__main__':
-    url = 'https://jobs.dou.ua/vacancies/?category=Python'
-    jobs, errors = dou_ua(url)
-    h = codecs.open('vacancies.txt', 'w', 'utf-8')
-    h.write(str(jobs))
-    h.close()
+# if __name__ == '__main__':
+#     url = 'https://jobs.dou.ua/vacancies/?category=Python'
+#     jobs, errors = dou_ua(url)
+#     h = codecs.open('vacancies.txt', 'w', 'utf-8')
+#     h.write(str(jobs))
+#     h.close()

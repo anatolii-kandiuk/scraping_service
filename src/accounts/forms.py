@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model, authenticate
 from django.contrib.auth.hashers import check_password
 from django.forms import (Form, ModelForm, EmailInput, CheckboxInput,
                           CharField, BooleanField, PasswordInput, ValidationError,
-                          ModelChoiceField, Select)
+                          ModelChoiceField, Select, TextInput, EmailField)
 
 from scraping.models import City, ProgramLanguage
 
@@ -33,7 +33,7 @@ class UserLoginForm(Form):
 
 
 class UserRegistrationForm(ModelForm):
-    email = CharField(label='Введіть електронну пошту', widget=EmailInput(attrs={'class': 'form-control'}))
+    email = EmailField(label='Введіть електронну пошту', widget=EmailInput(attrs={'class': 'form-control'}))
     password1 = CharField(label='Введіть пароль', widget=PasswordInput(attrs={'class': 'form-control'}))
     password2 = CharField(label='Повторіть пароль', widget=PasswordInput(attrs={'class': 'form-control'}))
 
@@ -54,18 +54,35 @@ class UserUpdateForm(Form):
                             required=True,
                             widget=Select(attrs={'class': 'form-control'}),
                             label='Місто'
-    )
+                            )
     program_language = ModelChoiceField(queryset=ProgramLanguage.objects.all(),
                                         to_field_name='slug',
                                         required=True,
                                         widget=Select(attrs={'class': 'form-control'}),
                                         label='Мова програмування'
-    )
+                                        )
     send_email = BooleanField(required=False,
                               widget=CheckboxInput,
                               label='Отримувати розсилку на пошту?'
-    )
+                              )
 
     class Meta:
         model = User
         fields = ('city', 'program_language', 'send_email')
+
+
+class ContactForm(Form):
+    city = CharField(
+        required=True,
+        widget=TextInput(attrs={'class': 'form-control'}),
+        label='Місто'
+    )
+    program_language = CharField(
+        required=True,
+        widget=TextInput(attrs={'class': 'form-control'}),
+        label='Мова програмування'
+    )
+    email = EmailField(
+        label='Введіть електронну пошту',
+        widget=EmailInput(attrs={'class': 'form-control'})
+    )
