@@ -13,11 +13,13 @@
                 <h5><a href="{{ obj.url }}">{{ obj.title }}</a></h5>
             </div>
             <div class="card-body">
-                <h4> {{ obj.company }} </h4>
+                <h5> {{ obj.company }} </h5>
                 <p class="card-text">{{ obj.description }}</p>
                 <p>{{ obj.city.name }} | {{ obj.program_language.name }} | {{ obj.timestamp|date:"d-m-Y"}}</p>
             </div>
         </div>
+        {% empty %}
+        <h3>Вакансій по вашому запиту не знайдено</h3>
         {% endfor %}
         {% if object_list %}
         <div class="row">
@@ -52,13 +54,32 @@
         {% endif %}
     </div>
     <div class="col-md-4 mx-auto">
-        <h2 class="my-4">Сервіс для пошуку вакансій по Україні</h2>
+        <h2 class="my-4">Сервіс для пошуку вакансій в Україні</h2>
         <hr>
         <p class="my-3">Для перегляду вакансій заповніть форму по одному з полів(або дваох)</p>
         <form action="{% url 'scraping:list' %}" method="get" >
             {{ form.as_p }}
-            <button type="submit" class="btn btn-primary">Знайти</button>
+            <div class="d-flex justify-content-around">
+            <button type="submit" class="btn btn-primary col-md-5">Знайти</button>
+             <button class="btn btn-warning col-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapseExample">
+                Підтримка
+            </button>
+                </div>
         </form>
+        <p>
+
+        </p>
+        <div class="collapse" id="collapsed">
+            <div class="card card-body">
+                <form action="{% url 'scraping:contact' %}" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        {{ contact_form.as_p }}
+                    </div>
+                    <button type="submit" class="btn btn-primary col-md-12">Надіслати</button>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}

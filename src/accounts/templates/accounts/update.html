@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="row">
-    <div class="col-md-6 mx-auto">
+    <div class="col-md-4 mx-auto">
         {% include "inc/_messages.html" %}
         <h2 class="my-4">Налаштування</h2>
         <h6>Користувач {{ user_name }}</h6>
@@ -14,13 +14,14 @@
             <div class="form-group">
                 {{ form.as_p }}
             </div>
-            <button type="submit" class="btn btn-primary">Зберегти</button>
+            <button type="submit" class="btn btn-primary col-md-12">Зберегти</button>
         </form>
         <p></p>
         <form action="{% url 'accounts:delete' %}" method="post">
             {% csrf_token %}
-            <button type="submit" class="btn btn-danger">Видалити користувача</button>
+            <button type="submit" class="btn btn-danger col-md-12">Видалити користувача</button>
         </form>
     </div>
 </div>
+
 {% endblock %}

@@ -69,20 +69,3 @@ class UserUpdateForm(Form):
     class Meta:
         model = User
         fields = ('city', 'program_language', 'send_email')
-
-
-class ContactForm(Form):
-    city = CharField(
-        required=True,
-        widget=TextInput(attrs={'class': 'form-control'}),
-        label='Місто'
-    )
-    program_language = CharField(
-        required=True,
-        widget=TextInput(attrs={'class': 'form-control'}),
-        label='Мова програмування'
-    )
-    email = EmailField(
-        label='Введіть електронну пошту',
-        widget=EmailInput(attrs={'class': 'form-control'})
-    )

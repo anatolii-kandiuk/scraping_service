@@ -1,4 +1,4 @@
-from django.forms import Form, ModelChoiceField, Select
+from django.forms import Form, ModelChoiceField, Select, CharField, TextInput, EmailField, EmailInput
 from .models import City, ProgramLanguage
 
 
@@ -14,3 +14,19 @@ class FindForm(Form):
                                         widget=Select(attrs={'class': 'form-control'}),
                                         label='Мова програмування')
 
+
+class ContactForm(Form):
+    city = CharField(
+        required=True,
+        widget=TextInput(attrs={'class': 'form-control'}),
+        label='Місто'
+    )
+    program_language = CharField(
+        required=True,
+        widget=TextInput(attrs={'class': 'form-control'}),
+        label='Мова програмування'
+    )
+    email = EmailField(
+        label='Введіть електронну пошту',
+        widget=EmailInput(attrs={'class': 'form-control'})
+    )
