@@ -5,7 +5,7 @@
 # import jsonfield.fields
 # import scraping.models
 #
-# 
+#
 # class Migration(migrations.Migration):
 #
 #     initial = True
