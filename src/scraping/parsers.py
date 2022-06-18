@@ -1,5 +1,4 @@
 import requests
-import codecs
 from bs4 import BeautifulSoup as BS
 from random import randint
 
@@ -89,7 +88,6 @@ def dou_ua(url, city=None, program_language=None):
                     if a:
                         company = a.text
 
-
                     jobs.append({'title': title.text,
                                  'url': href,
                                  'description': content,
@@ -140,11 +138,3 @@ def work_ua(url, city=None, program_language=None):
             errors.append({'url': url, 'title': "Page do not response"})
 
     return jobs, errors
-
-
-# if __name__ == '__main__':
-#     url = 'https://jobs.dou.ua/vacancies/?category=Python'
-#     jobs, errors = dou_ua(url)
-#     h = codecs.open('vacancies.txt', 'w', 'utf-8')
-#     h.write(str(jobs))
-#     h.close()

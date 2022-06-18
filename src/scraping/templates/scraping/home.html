@@ -7,23 +7,24 @@
 <div class="row">
     <div class="col-md-7">
         {% include "inc/_messages.html" %}
+        {% if object_list %}
         {% for obj in object_list %}
         <div class="card my-5">
-            <div class="card-header">
-                <h5><a href="{{ obj.url }}">{{ obj.title }}</a></h5>
+            <div class="card-header" style="background-color: #AD8B73">
+                <h5><a href="{{ obj.url }}" style="color: #F9F2ED">{{ obj.title }}</a></h5>
             </div>
-            <div class="card-body">
-                <h5> {{ obj.company }} </h5>
-                <p class="card-text">{{ obj.description }}</p>
-                <p>{{ obj.city.name }} | {{ obj.program_language.name }} | {{ obj.timestamp|date:"d-m-Y"}}</p>
+            <div class="card-body" style="background-color: #CEAB93">
+                <p class="card-text" style="color: #F9F2ED">{{ obj.description }}</p>
+            </div>
+             <div class="card-footer d-flex justify-content-around" style="background-color: #CEAB93">
+                 <div style="color: #F9F2ED">{{ obj.city.name }}</div>
+                 <div style="color: #F9F2ED">{{ obj.timestamp|date:"d-m-Y"}}</div>
+                 <div style="color: #F9F2ED">{{ obj.program_language.name }}</div>
             </div>
         </div>
-        {% empty %}
-        <h3>Вакансій по вашому запиту не знайдено</h3>
         {% endfor %}
-        {% if object_list %}
         <div class="row">
-            <div class="col ">
+            <div class="col">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
                         {% if object_list.has_previous %}
@@ -53,25 +54,23 @@
         </div>
         {% endif %}
     </div>
-    <div class="col-md-4 mx-auto">
-        <h2 class="my-4">Сервіс для пошуку вакансій в Україні</h2>
-        <hr>
-        <p class="my-3">Для перегляду вакансій заповніть форму по одному з полів(або дваох)</p>
-        <form action="{% url 'scraping:list' %}" method="get" >
+    <div class="col-md-4 mt-5 p-3 rounded mx-auto mx-auto" style="background-color: #CEAB93">
+        <h2 class="my-4" style="color: #F9F2ED">Сервіс для пошуку вакансій в Україні</h2>
+        <hr style="color: #F9F2ED">
+        <p class="my-3" style="color: #F9F2ED">Для перегляду вакансій заповніть форму по одному з полів(або дваох)</p>
+        <hr style="color: #F9F2ED">
+        <form action="{% url 'scraping:list' %}" method="get" style="color: #F9F2ED">
             {{ form.as_p }}
-            <div class="d-flex justify-content-around">
-            <button type="submit" class="btn btn-primary col-md-5">Знайти</button>
-             <button class="btn btn-warning col-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapseExample">
-                Підтримка
-            </button>
-                </div>
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary col-md-6">Знайти</button>
+                <button class="btn btn-warning col-md-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapseExample">
+                    Підтримка
+                </button>
+            </div>
         </form>
-        <p>
-
-        </p>
         <div class="collapse" id="collapsed">
-            <div class="card card-body">
-                <form action="{% url 'scraping:contact' %}" method="post">
+            <div class="card card-body" style="background-color: #AD8B73">
+                <form action="{% url 'scraping:contact' %}" method="post" style="color: #F9F2ED">
                     {% csrf_token %}
                     <div class="form-group">
                         {{ contact_form.as_p }}

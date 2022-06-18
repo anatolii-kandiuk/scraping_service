@@ -1,6 +1,7 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, redirect
 from django.contrib import messages
+
 from .models import Vacancy, Error
 from .forms import FindForm, ContactForm
 
@@ -10,7 +11,7 @@ import datetime as dt
 def home_view(request):
     form = FindForm()
     contact_form = ContactForm()
-    qs = Vacancy.objects.all()[:2]
+    qs = Vacancy.objects.all()[:1]
     return render(request, 'scraping/home.html', {'form': form, 'contact_form': contact_form, 'object_list': qs})
 
 
