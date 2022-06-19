@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('accounts.urls', 'accounts'))),
     path('scraping/', include(('scraping.urls', 'scraping'))),
+    path('api/v1/', include('scraping.api.urls')),
 ]

@@ -24,12 +24,10 @@ def run_scraping():
     )
     jobs, errors = [], []
 
-
     def get_settings():
         qs = User.objects.filter(send_email=True).values()
         settings_lst = set((q['city_id'], q['program_language_id']) for q in qs)
         return settings_lst
-
 
     def get_urls(_settings):
         qs = Url.objects.all().values()
@@ -46,13 +44,11 @@ def run_scraping():
                     urls.append(tmp)
         return urls
 
-
     async def main(value):
         func, url, city, program_language = value
         job, err = await loop.run_in_executor(None, func, url, city, program_language)
         errors.extend(err)
         jobs.extend(job)
-
 
     settings = get_settings()
     url_list = get_urls(settings)
@@ -84,5 +80,5 @@ def run_scraping():
         else:
             er = Error(data=f'errors:{errors}').save()
 
-    ten_days_ago = dt.date.today() - dt.timedelta(10)
-    Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
+    five_days_ago = dt.date.today() - dt.timedelta(5)
+    Vacancy.objects.filter(timestamp__lte=five_days_ago).delete()

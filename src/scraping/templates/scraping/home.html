@@ -22,6 +22,8 @@
                  <div style="color: #F9F2ED">{{ obj.program_language.name }}</div>
             </div>
         </div>
+        {% empty %}
+        <h4 style="background-color: #CEAB93"> Вакансій не знайдено! </h4>
         {% endfor %}
         <div class="row">
             <div class="col">
