@@ -144,19 +144,6 @@
 },
 {
   "model": "scraping.vacancy",
-  "pk": 439,
-  "fields": {
-    "url": "https://djinni.co/jobs/435813-back-end-ruby-middle-engineer-12840/",
-    "title": "\n\nBack-end (Ruby) Middle Engineer #12840\n\n",
-    "company": "\nGalyna Rybak,\n\n      Talent Acquisition Specialist\n      в \n      \n        Capgemini Engineering Ukraine\n      \n\n\n\n  \n    Україна\n(Дніпро, Івано-Франківськ, Київ\n    \n      + ще 4 міста)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
-    "description": "\nFast growing company that helps users deliver intuitive search and discovery experiences on their websites and mobile apps. The goal of the product is to provide users the ability to find the desired information in as short time as possible.\n",
-    "city": 2,
-    "program_language": 5,
-    "timestamp": "2022-06-20"
-  }
-},
-{
-  "model": "scraping.vacancy",
   "pk": 440,
   "fields": {
     "url": "https://djinni.co/jobs/395237-trainee-junior-salesforce-developer/",
