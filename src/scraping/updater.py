@@ -1,9 +1,8 @@
-from datetime import datetime
-from apscheduler.schedulers.background import BackgroundScheduler
-from run_scraping import run_scraping
-
-
-def start():
-    scheduler = BackgroundScheduler()
-    scheduler.add_job(run_scraping, 'interval', minutes=5)
-    scheduler.start()
+# from apscheduler.schedulers.background import BackgroundScheduler
+# from run_scraping import main
+#
+#
+# def start():
+#     scheduler = BackgroundScheduler()
+#     scheduler.add_job(main, 'interval', minutes=5)
+#     scheduler.start()

@@ -5,6 +5,6 @@ class ScrapingConfig(AppConfig):
     name = 'scraping'
     verbose_name = 'Scraping App'
 
-    def ready(self):
-        from scraping import updater
-        updater.start()
+    # def ready(self):
+    #     from scraping import updater
+    #     updater.start()
