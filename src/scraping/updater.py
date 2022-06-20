@@ -5,5 +5,5 @@ from run_scraping import run_scraping
 
 def start():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(run_scraping, 'interval', minutes=1440)
+    scheduler.add_job(run_scraping, 'interval', minutes=5)
     scheduler.start()
