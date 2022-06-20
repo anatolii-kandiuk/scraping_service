@@ -1,0 +1,34 @@
+[
+{
+  "model": "scraping.programlanguage",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.programlanguage",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.programlanguage",
+  "pk": 4,
+  "fields": {
+    "name": "PHP",
+    "slug": "php"
+  }
+},
+{
+  "model": "scraping.programlanguage",
+  "pk": 5,
+  "fields": {
+    "name": "Ruby",
+    "slug": "ruby"
+  }
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Київ",
+    "slug": "kyiv"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 6,
+  "fields": {
+    "name": "Івано-Франківськ",
+    "slug": "ivano-frankivsk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 20,
+  "fields": {
+    "name": "Львів",
+    "slug": "lviv"
+  }
+}
+]

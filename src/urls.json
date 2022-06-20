@@ -1,0 +1,158 @@
+[
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 2,
+    "program_language": 1,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-kyiv-python/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D1%97%D0%B2&category=Python",
+      "djinni": "https://djinni.co/jobs/keyword-python/kyiv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 2,
+  "fields": {
+    "city": 2,
+    "program_language": 2,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-kyiv-java/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Java&city=%D0%9A%D0%B8%D1%97%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-java/kyiv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 3,
+  "fields": {
+    "city": 2,
+    "program_language": 4,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-kyiv-php/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=PHP&city=%D0%9A%D0%B8%D1%97%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-php/kyiv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 4,
+  "fields": {
+    "city": 2,
+    "program_language": 5,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-kyiv-ruby/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Ruby&city=%D0%9A%D0%B8%D1%97%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-ruby/kyiv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 5,
+  "fields": {
+    "city": 6,
+    "program_language": 1,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-ivano-frankivsk-python/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Python&city=%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA",
+      "djinni": "https://djinni.co/jobs/keyword-python/ivano-frankivsk/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 6,
+  "fields": {
+    "city": 6,
+    "program_language": 2,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-ivano-frankivsk-java/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Java&city=%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA",
+      "djinni": "https://djinni.co/jobs/keyword-java/ivano-frankivsk/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 7,
+  "fields": {
+    "city": 6,
+    "program_language": 4,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-ivano-frankivsk-php/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=PHP&city=%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA",
+      "djinni": "https://djinni.co/jobs/keyword-php/ivano-frankivsk/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 8,
+  "fields": {
+    "city": 6,
+    "program_language": 5,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-ivano-frankivsk-ruby/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Ruby&city=%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA",
+      "djinni": "https://djinni.co/jobs/keyword-ruby/ivano-frankivsk/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 9,
+  "fields": {
+    "city": 20,
+    "program_language": 1,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-lviv-python/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?city=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2&category=Python",
+      "djinni": "https://djinni.co/jobs/keyword-python/lviv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 10,
+  "fields": {
+    "city": 20,
+    "program_language": 2,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-lviv-java/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Java&city=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-java/lviv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 11,
+  "fields": {
+    "city": 20,
+    "program_language": 4,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-lviv-php/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=PHP&city=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-php/lviv/?region=UKR"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 12,
+  "fields": {
+    "city": 20,
+    "program_language": 5,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-lviv-ruby/",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Ruby&city=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2",
+      "djinni": "https://djinni.co/jobs/keyword-ruby/lviv/?region=UKR"
+    }
+  }
+}
+]
