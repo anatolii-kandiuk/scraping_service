@@ -352,51 +352,12 @@
 },
 {
   "model": "scraping.vacancy",
-  "pk": 510,
-  "fields": {
-    "url": "https://djinni.co/jobs/435811-automation-java-qa-middle-engineer-12556/",
-    "title": "\n\nAutomation (Java) QA Middle Engineer #12556\n\n",
-    "company": "\nGalyna Rybak,\n\n      Talent Acquisition Specialist\n      в \n      \n        Capgemini Engineering Ukraine\n      \n\n\n\n  \n    Україна\n(Вінниця, Дніпро, Івано-Франківськ\n    \n      + ще 5 міст)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
-    "description": "\nOur Client is a global urban mobility brand challenging automotive industry conventions with an offering that meets the needs and requirements of a new generation of globally connected consumers.\n",
-    "city": 6,
-    "program_language": 2,
-    "timestamp": "2022-06-20"
-  }
-},
-{
-  "model": "scraping.vacancy",
-  "pk": 511,
-  "fields": {
-    "url": "https://djinni.co/jobs/387495-lead-java-software-engineer/",
-    "title": "\n\nLead Java Software Engineer\n\n",
-    "company": "\nAlexa Khomenko,\n\n      Talent Acquisition Recruiter\n      в \n      \n        EPAM Systems\n      \n\n\n\n  \n    Україна\n(Вінниця, Дніпро, Івано-Франківськ\n    \n      + ще 4 міста)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
-    "description": "\nWe are looking for a remote Lead Java Software Engineer to join a distributed team in Ukraine.\n",
-    "city": 6,
-    "program_language": 2,
-    "timestamp": "2022-06-20"
-  }
-},
-{
-  "model": "scraping.vacancy",
   "pk": 512,
   "fields": {
     "url": "https://djinni.co/jobs/435551-trainee-back-end-engineer-java-/",
     "title": "\n\nTrainee Back-End Engineer (Java)\n\n",
     "company": "\nSvitlana Pshinka,\n\n      Recruiter\n      в \n      \n        Sombra\n      \n\n\n\n  \n    Україна\n(Івано-Франківськ)\n\n \n        Office/Remote на ваш вибір\n· Без досвіду\n· Upper-Intermediate\n",
     "description": "\nThe system will be designed to take automated feeds of data from recordkeepers. This is a B2B application. Aimed at small and mid sized companies with the intention of offloading the management\n",
-    "city": 6,
-    "program_language": 2,
-    "timestamp": "2022-06-20"
-  }
-},
-{
-  "model": "scraping.vacancy",
-  "pk": 513,
-  "fields": {
-    "url": "https://djinni.co/jobs/422211-senior-android-engineer/",
-    "title": "\n\nSenior Android Engineer\n\n",
-    "company": "\nYanina Moskaliuk,\n\n      Talent Acquisition Specialist\n      в \n      \n        N-iX\n      \n\n\n\n  \n    Польща,\n    Україна\n(Вінниця, Івано-Франківськ, Київ, Львів)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
-    "description": "\nOur customer is transforming the taxi industry with intelligent, cloud-based taxi technology, having a true vision for the future, and the ambition and energy to make it happen.\n",
     "city": 6,
     "program_language": 2,
     "timestamp": "2022-06-20"
