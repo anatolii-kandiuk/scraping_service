@@ -65,4 +65,4 @@ class Url(Model):
     
     class Meta:
         unique_together = ("city", "program_language")
-    
+
