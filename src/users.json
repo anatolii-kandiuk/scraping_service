@@ -1,20 +1,6 @@
 [
 {
   "model": "accounts.myuser",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$260000$1Sl523wknR6SnDZfOg0PvN$4UHB5xQgzio6FhCsv9tgO0yyUTjEqGsJ+1R6B69tLCs=",
-    "last_login": "2022-06-19T20:07:37.566Z",
-    "email": "admin@i.ua",
-    "is_active": true,
-    "is_admin": true,
-    "city": 6,
-    "program_language": 2,
-    "send_email": true
-  }
-},
-{
-  "model": "accounts.myuser",
   "pk": 4,
   "fields": {
     "password": "pbkdf2_sha256$260000$q80zTBzsvuFsftnjngoolH$+rJiYZZ3MIfT/RHqjV4vj04FoCJIC66hLlFuBQitzBs=",
