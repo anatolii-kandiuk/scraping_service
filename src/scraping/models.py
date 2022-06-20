@@ -34,8 +34,8 @@ class ProgramLanguage(Model):
 
 class Vacancy(Model):
     url = URLField(unique=True)
-    title = CharField(max_length=400, verbose_name='Title')
-    company = CharField(max_length=600, verbose_name='Company')
+    title = CharField(max_length=1200, verbose_name='Title')
+    company = CharField(max_length=1200, verbose_name='Company')
     description = TextField(verbose_name='Description')
     city = ForeignKey('City', on_delete=CASCADE, verbose_name='City')
     program_language = ForeignKey('ProgramLanguage', on_delete=CASCADE, verbose_name='Program language')
