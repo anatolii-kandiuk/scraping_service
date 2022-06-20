@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scraping.apps.ScrapingConfig',
+    'scraping',
     'accounts',
     'rest_framework',
     'django_filters',
