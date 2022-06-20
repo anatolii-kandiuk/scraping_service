@@ -2312,5 +2312,564 @@
     "program_language": 2,
     "timestamp": "2022-06-20"
   }
+},
+  {
+  "model": "scraping.vacancy",
+  "pk": 438,
+  "fields": {
+    "url": "https://djinni.co/jobs/435814-back-end-ruby-middle-engineer-12614/",
+    "title": "\n\nBack-end (Ruby) Middle Engineer #12614\n\n",
+    "company": "\nGalyna Rybak,\n\n      Talent Acquisition Specialist\n      в \n      \n        Capgemini Engineering Ukraine\n      \n\n\n\n  \n    Україна\n(Вінниця, Дніпро, Івано-Франківськ\n    \n      + ще 5 міст)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+    "description": "\nOur client creates a modern content platform for business, content creators, marketing, and e-commerce.\n",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 439,
+  "fields": {
+    "url": "https://djinni.co/jobs/435813-back-end-ruby-middle-engineer-12840/",
+    "title": "\n\nBack-end (Ruby) Middle Engineer #12840\n\n",
+    "company": "\nGalyna Rybak,\n\n      Talent Acquisition Specialist\n      в \n      \n        Capgemini Engineering Ukraine\n      \n\n\n\n  \n    Україна\n(Дніпро, Івано-Франківськ, Київ\n    \n      + ще 4 міста)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+    "description": "\nFast growing company that helps users deliver intuitive search and discovery experiences on their websites and mobile apps. The goal of the product is to provide users the ability to find the desired information in as short time as possible.\n",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 440,
+  "fields": {
+    "url": "https://djinni.co/jobs/395237-trainee-junior-salesforce-developer/",
+    "title": "\n\nTrainee/Junior Salesforce Developer\n\n",
+    "company": "\nLyuda Cherneha,\n\n      Recruiter\n      в \n      \n        Peeklogic\n      \n\n\n\n  \n    Україна\n(Львів)\n\n \n        Office Work\n· Без досвіду\n· Intermediate\n",
+    "description": "\nWe are looking for Trainee/Junior Salesforce Developer.\r\n\r\nApply now for this position and become a part of our great team!\n",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 441,
+  "fields": {
+    "url": "https://djinni.co/jobs/367543-junior-ruby-on-rails-developer/",
+    "title": "\n\nJunior Ruby on Rails Developer\n\nвід $600\n",
+    "company": "\nPaul Keen,\n\n      CTO\n      в \n      \n        JetThoughts\n      \n\n\n\n  \n    Україна\n(Львів)\n\n \n        Full Remote\n· Без досвіду\n· Upper-Intermediate\n",
+    "description": "\nWe are looking for a result-oriented and self-directed person aimed at getting the work done in the most efficient way possible.\n",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 442,
+  "fields": {
+    "url": "https://djinni.co/jobs/317156-ruby-on-rails-developer/",
+    "title": "\n\nRuby on Rails Developer\n\n",
+    "company": "\nPaul Keen,\n\n      CTO\n      в \n      \n        JetThoughts\n      \n\n\n\n  \n    Україна\n\n    \n\n        Product\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+    "description": "\nWe are looking for a result-oriented and self-directed person aimed at getting the work done in the most efficient way possible with 3+ years of working with Ruby on Rails.\n",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 443,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/boosta/vacancies/211104/",
+    "title": "\nPHP Developer (Middle+/Senior) в  Boosta\nКиїв, Львів, віддалено\n",
+    "company": " Boosta",
+    "description": "\n\t\t\t\t\tHello, we are Boosta!An international multi-product IT company developing products for western markets in the sphere of education and marketing tools.Boosta was founded in 2014 and grew from 3 people to 600+ since then.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 444,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/favbet/vacancies/211065/",
+    "title": "\nMiddle PHP Full Stack Developer в  Favbet Tech\nКиїв, за кордоном, віддалено\n",
+    "company": " Favbet Tech",
+    "description": "\n\t\t\t\t\tMIDDLE PHP FULL STACK DEVELOPER\nYou will be responsible for:\n— Development on Symfony 3+ (Doctrine, Twig)— Writing PHP code for external LEGACY projects\n— Communication with PM/business analysts, testers to clarify requirements and test tasks, respectively— Interaction with...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 445,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/svitla-systems-inc/vacancies/211015/",
+    "title": "\nSenior PHP/MySQL Engineer в  Svitla Systems\nКиїв, Харків, Львів, віддалено\n",
+    "company": " Svitla Systems",
+    "description": "\n\t\t\t\t\tSvitla Systems Inc. is looking for a Senior PHP Developer (with PHP and MySQL) for a full-time position (40 hours per week) in Ukraine.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 446,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/mediastreamag/vacancies/188406/",
+    "title": "\nPHP Backend Developer в  Mediastream Company\nКиїв\n",
+    "company": " Mediastream Company",
+    "description": "\n\t\t\t\t\tWho are we?\nGlobalBet is the biggest independent B2B provider for virtual sports solutions, offering the most realistic and reliable virtual sports product to the industry.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 447,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/socialtech/vacancies/205113/",
+    "title": "\nBack-end Team Lead в  SocialTech\nКиїв\n",
+    "company": " SocialTech",
+    "description": "\n\t\t\t\t\tSocialTech — продуктова IT-компанія, у якій ми відтворили світ венчурних інвестицій. Як venture builder, ми будуємо та запускаємо стартапи, у серці яких — аналітика, дані та машинне навчання.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 448,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/itera-consulting-group-ukraine/vacancies/210985/",
+    "title": "\nStrong Junior/Middle PHP Developer в  Itera\nКиїв, Львів, віддалено\n",
+    "company": " Itera",
+    "description": "\n\t\t\t\t\tItera is looking for PHP Developer who will join our Itera team to work for Norwegian customer, a product company that develops HR solution.\nCustomer delivers web-based solution primarily within the Scandinavian market by means of its Compublish platform.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 449,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/favbet/vacancies/210981/",
+    "title": "\nMiddle PHP Developer в  Favbet Tech\nКиїв, за кордоном, віддалено\n",
+    "company": " Favbet Tech",
+    "description": "\n\t\t\t\t\tMIDDLE PHP DEVELOPER \n \nYou will be responsible for:\n— Development of APIs on Laravel;\n— Optimization and refactoring of existing APIs;\n— Interaction with other teams, PMs, business analysts, testers.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 450,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/softserve/vacancies/210965/",
+    "title": "\nMiddle PHP Software Engineer (ID 80861) в  SoftServe\nКиїв, Львів, Дніпро, Івано-Франківськ, Рівне, Чернівці\n",
+    "company": " SoftServe",
+    "description": "\n\t\t\t\t\tWE ARE\nSoftServe is a leading technology solutions company specializing in software product and application development and services.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 451,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/countx/vacancies/210959/",
+    "title": "\nJunior PHP Developer в  countX\n$500–800\nКиїв\n",
+    "company": " countX",
+    "description": "\n\t\t\t\t\tJob Description\nYour main responsibilities will be:\n\nwrite PHP/Symfony code (of course): mostly REST endpoints, AWS Lambda handlers and automated tests\nTake part in discussion of business tasks and providing your opinion, which is part of our culture\nLearn and grow in desired...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 452,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/vymex/vacancies/210951/",
+    "title": "\nFull Stack WEB Developer в  VYMEX\nвід $1500\nКиїв\n",
+    "company": " VYMEX",
+    "description": "\n\t\t\t\t\tVymex — українська продуктова IT компанія, яка розробляє екосистему сервісів для ефективного управління бізнесом, його ресурсами та процесами. Продукт Vymex дозволить компаніям працювати ефективніше, а керівникам фокусуватися на глобальніших завданнях.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 453,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/beetroot/vacancies/205208/",
+    "title": "\nMiddle PHP Developer (Laravel) в  Beetroot\nКиїв, Львів, Одеса, Івано-Франківськ, Кременчук, Полтава, віддалено\n",
+    "company": " Beetroot",
+    "description": "\n\t\t\t\t\tAre you thinking that it’s time to wrap yourself around something different and exciting.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 454,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/gift-mall/vacancies/154541/",
+    "title": "\nMiddle PHP Developer (Symfony) в  giftmall\n$1700–3000\nКиїв\n",
+    "company": " giftmall",
+    "description": "\n\t\t\t\t\tgiftmall— провідна компанія в галузі передплачених рішень та дистрибьютор подарункових карток в Україні та Польщі. Ми працюємо з лідерами рітейл бізнесу та обслуговуємо найбільших міжнародних клієнтів на території України та Європи.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 455,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/digicode/vacancies/201957/",
+    "title": "\nFull-stack PHP Developer в  Digicode\nКиїв, Полтава, віддалено\n",
+    "company": " Digicode",
+    "description": "\n\t\t\t\t\tRequired skills:\n\nHigh level of PHP version 5 and 7.\nExperience with Laravel / Symphony frameworks.\nMySQL — understanding of database usage optimization.\nAPI development experience: REST / SOAP.\nAPI testing experience (codeception).\nExperience with Vue.js\nGIT and git-flow usage.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 4,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 456,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/axon/vacancies/209734/",
+    "title": "\nRoR Engineer (2+ years of experience) в  Axon\n$2500–3500\nБатумі (Грузія), Київ, віддалено\n",
+    "company": " Axon",
+    "description": "\n\t\t\t\t\tВи будете працювати над унікальною хмарною програмною CRM платформою, розробленою для юристів США, яка полегшує організаційне навантаження у керуванні документообігом та процесами у судових та ділових питаннях, а також забезпечує безпеку особистої інформації клієнтів.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 457,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/blackbird-lab/vacancies/204253/",
+    "title": "\nSenior Ruby Engineer в  Blackbird Lab\nКиїв, віддалено\n",
+    "company": " Blackbird Lab",
+    "description": "\n\t\t\t\t\tWe are looking for Senior Ruby Engineer to join our team. The product we are developing is a software solution that allows brands to collaborate during the manufacturing process, exchange specs, orders, etc.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 458,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/209540/",
+    "title": "\nSenior Fullstack Engineer в  KitRUM\nКиїв, Харків, Львів, Ужгород, віддалено\n",
+    "company": " KitRUM",
+    "description": "\n\t\t\t\t\tRequired skills\n— 5+ years of professional software development experience on the Front End— 3+ years of experience with Ruby on Rails building RestFul API— Strong understanding of RestFul API design best practices— Experience with React based web applications with a responsive...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 459,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/litslink/vacancies/46218/",
+    "title": "\nRuby on Rails Developer в  LITSLINK\nКиїв, Харків, за кордоном, віддалено\n",
+    "company": " LITSLINK",
+    "description": "\n\t\t\t\t\tWhat happens after you apply:\n\n— We review your application and contact you to set up a quick call with one of our recruiters;\n— Online interview ( Technical )\n— Interview with CEO/СОО\n— Offer 💎\n\nYep, we’re cool. Apply today!\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 460,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/softserve/vacancies/205918/",
+    "title": "\nMiddle/Senior Ruby Engineer (ID 81283) в  SoftServe\nКиїв, Львів\n",
+    "company": " SoftServe",
+    "description": "\n\t\t\t\t\tWE ARE\nSoftServe is a global digital solutions company with headquarters in Austin, Texas, founded in 1993 in Ukraine. 13,000+ associates are currently working on 2,000+ projects with clients in the USA, Europe, and APAC region.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 461,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/spd-ukraine/vacancies/205463/",
+    "title": "\nRuby on Rails Engineer в  SPD-Ukraine\nКиїв, Львів, Черкаси, за кордоном, віддалено\n",
+    "company": " SPD-Ukraine",
+    "description": "\n\t\t\t\t\tAbout projectThe system allows contractors to hire, dispatch, monitor progress, and pay independent trucks and fleets who are bringing concrete, asphalt, gravel, and other aggregate materials to the worksites.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 462,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ncube/vacancies/209241/",
+    "title": "\nSenior Ruby Developer в  NCube\nКиїв\n",
+    "company": " NCube",
+    "description": "\n\t\t\t\t\tWe are looking for a Senior Software Engineer to join a global Product Development team in building and owning a custom suite of FinTech solutions. \nOur client from the USA connects the entire supply chain by automating digital payments.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 463,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/radency/vacancies/208948/",
+    "title": "\nRuby on Rails Developer в  Radency\nКиїв, Львів, віддалено\n",
+    "company": " Radency",
+    "description": "\n\t\t\t\t\tШукаємо Ruby on Rails розробника для роботи над каліфорнійською платформою з 50 мільйонами активних користувачів.\n\nПроєкт\nАмериканська платформа, яка допомагає бізнесам аналізувати трафік їхніх сайтів та збільшувати залученість користувачів.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 5,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 464,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/atlas/vacancies/196852/",
+    "title": "\nJava Team Lead в  Atlas IAC\n$6000–7000\nКиїв\n",
+    "company": " Atlas IAC",
+    "description": "\n\t\t\t\t\tWe are looking for Java Team Lead!\n\nYou will be working on the development of existing components of In-House Platform (Sportsbook, CRM, Risk Management, Antifraud, Bonus engine and Retail software suite), and creation of new customer-oriented modules.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 465,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/atlas/vacancies/125668/",
+    "title": "\nSenior Java Developer в  Atlas IAC\nКиїв\n",
+    "company": " Atlas IAC",
+    "description": "\n\t\t\t\t\tWe are a EU software development company.\nOur teams develop and automate solutions for all areas of Sportsbook operations worldwide.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 466,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/xenoss/vacancies/196106/",
+    "title": "\nLead Java Engineer | Customer Intelligence Platform в  Xenoss\nКиїв, Харків, Львів, Дніпро, Одеса, Вінниця, Житомир, Рівне, Ужгород, Чернігів, Чернівці, за кордоном, віддалено\n",
+    "company": " Xenoss",
+    "description": "\n\t\t\t\t\tО проекте\nThe product is a customer data platform aimed to enhance the user experience with online shops usage by adding the possibility to personalize offering and engagement based on user behavior.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 467,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ajax-systems/vacancies/203354/",
+    "title": "\nSenior Java Developer в  Ajax Systems\nКиїв, Львів, віддалено\n",
+    "company": " Ajax Systems",
+    "description": "\n\t\t\t\t\tRequired skills\nJava 5+ років.Добре розуміти і вміти застосовувати Java concurrency, мати практичний досвід в цій області.Relational DBs.Добре розуміти принципи хмарної розробки, мати практичний досвід роботи з AWS.Вміти масштабувати і забезпечувати високу доступність навантажених...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 468,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/synergetica/vacancies/211096/",
+    "title": "\nSenior Back-End (Java) Developer (gaming project; platform services) в  Synergetica\nдо $7000\nКиїв, Варшава (Польща), віддалено\n",
+    "company": " Synergetica",
+    "description": "\n\t\t\t\t\tOn behalf of our client, we’re looking for an experienced and motivated Back-End Developer, proficient in Java and cloud solutions to work on the development of a cutting-edge product in the gaming sphere.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 469,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/newground/vacancies/186528/",
+    "title": "\nSenior Java backend developer в  NewGround\nКиїв, віддалено\n",
+    "company": " NewGround",
+    "description": "\n\t\t\t\t\tWe are searching for passionate Java developers (Backend).\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 470,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/iternal-group/vacancies/198950/",
+    "title": "\nSenior Java Developer в  ITernal Group\nКиїв, Харків, віддалено\n",
+    "company": " ITernal Group",
+    "description": "\n\t\t\t\t\tRequirements:\n\nSolid experience in Java (Java 8, Kotlin)\nSolid experience with building a full stack web application with Spring Framework 5 / Spring Boot 2 / SQL and NoSQL Databases\nExperience with automation/configuration management\nA working knowledge of Java delivery tools:...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 471,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/credit-agricole/vacancies/128163/",
+    "title": "\nMiddle/Senior Java Developer в  CREDIT AGRICOLE\nКиїв\n",
+    "company": " CREDIT AGRICOLE",
+    "description": "\n\t\t\t\t\tDigital Banking Platform Development project\n\nWe are a team of professionals who work on dozens of systems and development platforms. The bank’s staff builds and refines products and services for customers.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 472,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/levi9/vacancies/207576/",
+    "title": "\nSenior AQA (JS/Java) Engineer в  Levi9\nКиїв, Львів, віддалено\n",
+    "company": " Levi9",
+    "description": "\n\t\t\t\t\t🔹Who we are!\nAt Levi9, we are passionate about what we do. We love our work and together in a team, we are smarter and stronger. We are looking for skilled team players who make change happen. Are you one of these players?\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 473,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/tietoevry/vacancies/193947/",
+    "title": "\nDevOps/Java Developer в  Tietoevry\n$2000–4000\nКиїв, Львів, Одеса, віддалено\n",
+    "company": " Tietoevry",
+    "description": "\n\t\t\t\t\tWe are looking for a candidate with experience in DevOps (Docker, Bash, etc) and software development (Java) to join R&D team in financial solution development.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 474,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/provectus/vacancies/210977/",
+    "title": "\nMiddle/Senior Data Engineer (Python/Java) (Ukraine, Poland) в  Provectus\nPoland, Київ, Одеса, Івано-Франківськ, віддалено\n",
+    "company": " Provectus",
+    "description": "\n\t\t\t\t\tAt Provectus, we are obsessed with technologies that impact the future of the whole of humanity. Just imagine: AI for curing eye diseases, ML for making factories safe for workers, preventing pandemic spreading, etc.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 475,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/omilia-ltd/vacancies/195861/",
+    "title": "\nNLU Application Developer в  Omilia\nКиїв, Афіни (Греція), Лімасол (Кіпр), Прага (Чехія), віддалено\n",
+    "company": " Omilia",
+    "description": "\n\t\t\t\t\t**Description**\nWe are seeking a Natural Language Understanding application developer to join our Solution Delivery team.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 476,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/207429/",
+    "title": "\nMiddle Java Engineer в  KitRUM\nКиїв, Харків, Львів, Ужгород, віддалено\n",
+    "company": " KitRUM",
+    "description": "\n\t\t\t\t\tRequired skills\n— 4+ years of experience in software development— Solid knowledge in Spring or Spring-boot 2.0— Working experience developing RestfulAPIs— Working experience with testing frameworks jUnit5 & Mockit— Working experience with Maven— Experience with Continuous...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 477,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/207465/",
+    "title": "\nSenior Java Engineer в  KitRUM\nКиїв, Харків, Львів, Ужгород, віддалено\n",
+    "company": " KitRUM",
+    "description": "\n\t\t\t\t\tRequired skills\n— 5+ years of experience in software development— Fluent in Java— Experience in developing applications with Spring Boot and Docker— Familiarity with AWS services such as EKS, SQS, CloudWatch and DocumentDB— Familiarity with agile working methods— DevOps mindset...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 2,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 478,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/skyfall-data-llc/vacancies/180147/",
+    "title": "\nPython Developer (referral bonus 1500$) в  SkyFall Data\nКиїв\n",
+    "company": " SkyFall Data",
+    "description": "\n\t\t\t\t\tChief backend developer on a cryptocurrency exchange\nLevel: Senior\nTechnologies: Python, Django, Celery, PostgreSQL (deep knowledge), Redis\nAbout us: a digital asset exchange platform that allows you to trade digital assets conveniently and securely with low fees.\n\t\t\t\t",
+    "city": 2,
+    "program_language": 1,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 479,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/innovecs/vacancies/211038/",
+    "title": "\nSenior Python Developer в  Innovecs\nКиїв, за кордоном, віддалено\n",
+    "company": " Innovecs",
+    "description": "\n\t\t\t\t\tWe are looking for a motivated and experienced Senior Python Developer.REQUIREMENTS:\n\nFirst and foremost, excellent knowledge and hands-on experience in Python\nAt least 4 years of experience in software development\nProven experience working with Linux system environments\n\nRESPONSIBILITIES:...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 1,
+    "timestamp": "2022-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 480,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/numerical-technologies-ltd/vacancies/176777/",
+    "title": "\nMath + Python developer (students are welcome) в  Numerical Technologies\nКиїв, за кордоном, віддалено\n",
+    "company": " Numerical Technologies",
+    "description": "\n\t\t\t\t\tNumerical Technologies, a leading provider of software development and consultancy services for financial institutions, is looking for talented people experienced in Math and Python who will be responsible for development, testing, implementation, debugging and support of sophisticated...\n\t\t\t\t",
+    "city": 2,
+    "program_language": 1,
+    "timestamp": "2022-06-20"
+  }
 }
 ]

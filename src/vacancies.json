@@ -703,19 +703,6 @@
 },
 {
   "model": "scraping.vacancy",
-  "pk": 427,
-  "fields": {
-    "url": "https://djinni.co/jobs/422939-full-stack-developer-react-ror-/",
-    "title": "\n\nFull-stack developer (React+ROR)\n\n",
-    "company": "\nMartha Stopets,\n\n      Recruiter\n      в \n      \n        Indigo Tech recruitment\n      \n\n\n\n  \n    Релокейт,\n    Чехія,\n    Молдова,\n    Польща,\n    Румунія,\n    Україна\n\n    \n\n        Product\n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
-    "description": "\nWe are a strong, collaborative company culture and offer a chance to make a meaningful difference in our customers' lives. We are a \"people-first\" organization seeking team players with a high level of emotional intelligence, appreciation for teamwork, and dedication to building amazing tools.\n",
-    "city": 2,
-    "program_language": 5,
-    "timestamp": "2022-06-20"
-  }
-},
-{
-  "model": "scraping.vacancy",
   "pk": 428,
   "fields": {
     "url": "https://djinni.co/jobs/423283-ruby-engineer/",
